@@ -5,7 +5,7 @@
 </div>
 
 <div align=center>
-    <img width="800" height="600" src="./pictures/logo.png"/>
+    <img width="600" height="600" src="./pictures/logo.png"/>
 </div>
 
 ## 🚀 介绍
