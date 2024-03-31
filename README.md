@@ -4,9 +4,9 @@
     </h1>
 </div>
 
-<!-- <div align="center">
-  <img src="">
-</div> -->
+<div align="center">
+  <img src="https://github.com/flyingwaters/Chinese-Vertical-landing-MoE/pictures/logo.png">
+</div>
 
 
 ## 🚀 介绍
