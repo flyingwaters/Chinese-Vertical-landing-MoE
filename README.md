@@ -1,11 +1,12 @@
 <div align="center">
     <h1>
-        Chinese-Mixtral-8x7B-Vertical landing Variant
+        Chinese-Vertical-landing-MoE
     </h1>
 </div>
 
-<div align="center">
-  <img src="https://github.com/flyingwaters/Chinese-Vertical-landing-MoE/pictures/logo.png">
+
+<div align=center>
+    <img width="800" height="600" src="./pictures/logo.png"/>
 </div>
 
 
