@@ -4,10 +4,10 @@ import torch
 from peft import PeftModel, PeftConfig
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, AutoModelForCausalLM
 # Load peft config for pre-trained checkpoint etc.
-peft_model_id = "/home/clouduser/fengly/models/HIT-SCIR/Chinese-Mixtral-8x7B"
+peft_model_id = "/xxx/models/HIT-SCIR/Chinese-Mixtral-8x7B"
 config = PeftConfig.from_pretrained(peft_model_id)
 
-model_path = "/home/clouduser/fengly/models/HIT-SCIR/Chinese-Mixtral-8x7B"
+model_path = "/xxx/models/HIT-SCIR/Chinese-Mixtral-8x7B"
 
 # load base LLM model and tokenizer
 model = AutoModelForCausalLM.from_pretrained(model_path, attn_implementation="flash_attention_2", torch_dtype=torch.bfloat16, device_map="auto")
@@ -22,7 +22,7 @@ model.eval()
 batch_num = 4
 
 import json
-test_path = "/home/clouduser/fengly/DeepSeek-MoE/test0.json"
+test_path = "xxx"
 with open(test_path, "r") as f:
     content = json.load(f)
     
